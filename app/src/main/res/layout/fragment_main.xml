@@ -11,20 +11,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:background="#253748"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/topbannerbar"/>
-
-        </android.support.v7.widget.Toolbar>
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,13 +23,12 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:text="Came by accident"
-            android:id="@+id/button"
+            android:id="@+id/accidentButton"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/hero_button"
             android:textColor="#FAC740"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/lightning_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp" />
 
@@ -51,13 +36,12 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:text="Genetic mutation"
-            android:id="@+id/button2"
+            android:id="@+id/geneticButton"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/hero_button"
             android:textColor="#FAC740"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/atomic_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp" />
 
@@ -65,13 +49,12 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:text="Born with them"
-            android:id="@+id/button3"
+            android:id="@+id/bornButton"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/hero_button"
             android:textColor="#FAC740"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/rocket_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp" />
 
@@ -79,7 +62,7 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:text="CHOOSE POWERS"
-            android:id="@+id/button4"
+            android:id="@+id/chooseButton"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/hero_solid_button"
             android:textColor="#10161D"
